@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function(){
-    // Getting elements
-
+document.addEventListener("DOMContentLoaded", function() {
     const sideTwo = document.querySelector(".side-two");
     const numbers = document.querySelectorAll(".circle");
-    const clickedNumberPage = document.getElementById("clicked-number-page");
-    const clickedNumber = document.getElementById("clicked-number");
-
-    // Hiding the "side-two" class page
+    const dismiss = document.getElementById("#dismiss_btn");
+    const submitButton = document.querySelector(".button");
+    // const dismissBtn = document.getElementById("dismiss_btn");
+  
+    // // Hide the "side-two" and clickedNumberPage initially
     sideTwo.style.display = "none";
-
-})
+    
+  });
+  
